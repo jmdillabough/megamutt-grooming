@@ -1,1 +1,1 @@
-## Getting Started [MegaMutt Grooming](https://megamutt-grooming.vercel.app/)
+## [MegaMutt Grooming](https://megamutt-grooming.vercel.app/)
