@@ -71,8 +71,10 @@ export default function Example() {
                 <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-4xl font-bold  text-gray-900 sm:text-6xl">
                     From shaggy to chic,{" "}
-                    <span className="text-red-500 font-extrabold">MegaMutt</span> Groomings got
-                    your dog covered!
+                    <span className="text-red-500 font-extrabold">
+                      MegaMutt
+                    </span>{" "}
+                    Groomings got your dog covered!
                   </h1>
                   <p className="relative mt-6 text-lg leading-8 prose sm:max-w-md lg:max-w-none ">
                     Welcome to MegaMutt Grooming, where we believe that every
@@ -151,6 +153,6 @@ export default function Example() {
           </div>
         </div>
       </main>
-      </>
+    </>
   );
 }

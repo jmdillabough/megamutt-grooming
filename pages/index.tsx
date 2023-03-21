@@ -1,8 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -13,10 +14,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex items-center justify-center h-screen flex-col'>
-        <Image src='/mutt.svg' width={200} height={200} alt='Megamutt Logo' />
-        <h1 className='text-3xl font-bold'>Megamutt Grooming</h1>
-      </div>
+      <Link href="/home">
+        <div className="flex items-center justify-center h-screen flex-col">
+          <Image src="/mutt.svg" width={200} height={200} alt="Megamutt Logo" />
+          <h1 className="text-3xl font-bold">Megamutt Grooming</h1>
+        </div>
+      </Link>
     </>
-  )
+  );
 }
