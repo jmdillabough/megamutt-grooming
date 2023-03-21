@@ -76,14 +76,14 @@ export default function Example() {
                     </span>{" "}
                     Groomings got your dog covered!
                   </h1>
-                  <p className="relative mt-6 text-lg leading-8 prose sm:max-w-md lg:max-w-none ">
+                  <p className="relative mt-6 text-lg font-medium leading-8 prose sm:max-w-md lg:max-w-none ">
                     Welcome to MegaMutt Grooming, where we believe that every
                     dog and cat deserves to look and feel their best! Located in
                     the heart of Chicago, our team of expert groomers is
                     dedicated to providing top-notch grooming services for your
                     furry friend.
                   </p>
-                  <p className="relative mt-6 text-lg leading-8 prose sm:max-w-md lg:max-w-none">
+                  <p className="relative mt-6 text-lg font-medium leading-8 prose sm:max-w-md lg:max-w-none">
                     At MegaMutt, we offer a wide range of grooming services to
                     ensure that your pet is always looking their best. Whether
                     you&apos;re looking for a basic bath and brush or a full
